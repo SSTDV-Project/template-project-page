@@ -1,5 +1,8 @@
 Template project page
 ===
+[[Preprint](https://sstdv-project.github.io/template-project-page/static/pdfs/sample.pdf)]
+[[Supplementary](https://sstdv-project.github.io/template-project-page/static/pdfs/sample.pdf)]
+[[Project Page](https://sstdv-project.github.io/template-project-page/)]
 
 ## Project directory structure
 ```
@@ -8,9 +11,28 @@ Template project page
 ├── LICENSE
 ├── src/
 │   └── [Project source code]
-└── docs/
-    └── [Optional: project pages source code]
+├── docs/
+│   └── [Optional: project pages source code]
+└── examples/
+    └── [Optional: Colab/Jupyter notebooks for demonstrations]
 ```
+
+## Project guideline
+Any public project SHOULD include:
+* MIT License @ `LICENSE`
+* Acknowledgement @ `README.md`
+* BibTeX citation + link to PDF file @ `README`, if the project is accompanied with a research paper
+
+Any public project SHOULD NOT include:
+* Private data, undisclosed data, data with limited accessibility
+  - Preferably, *any* data should be hosted outside of the repository.
+* Personal information
+  - *Unintended* personal information of researchers and developers within source code
+  - Device IP address, password, secrets, file path, ...
+
+Any Public project is encouraged to include:
+* Project pages (GitHub pages or other platform)
+* Examples as Colab/Jupyter notebook
 
 ## Pages setting
 To enable project pages,
