@@ -1,21 +1,29 @@
 Template project page
 ===
-예시 프로젝트 페이지입니다.
 
-## 프로젝트 구조
+## Project directory structure
 ```
 .
 ├── README.md
 ├── LICENSE
 ├── src/
-│   └── [프로젝트 소스코드]
+│   └── [Project source code]
 └── docs/
-    └── [선택: 프로젝트 페이지 소스코드]
+    └── [Optional: project pages source code]
 ```
+
+## Pages setting
+To enable project pages,
+* Go to Project settings > Pages
+* Select 'Deploy from a branch' as the source
+* Select `/docs` for the branch and save
+* Project page will be deployed shortly
+
+<img src="docs/assets_readme/github-pages-setting-template.png"/>
 
 ## Citation
 
-BibTeX 예시
+BibTeX example
 ```bibtex
 @article{knuth:1984,
   title={Literate Programming},
@@ -31,8 +39,8 @@ BibTeX 예시
 
 ## Acknowledgement
 
-###### 국문 사사의글
+###### Korean acknowledgement
 > 이 논문은 20__년도 정부(과학기술정보통신부)의 재원으로 정보통신기획평가원의 지원을 받아 수행된 연구임 (No.00223446, 목적 맞춤형 합성데이터 생성 및 평가기술 개발)
 
-###### 영문 사사의글
+###### English acknowledgement
 > This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No.00223446, Development of object-oriented synthetic data generation and evaluation methods)
